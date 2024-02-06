@@ -1,0 +1,174 @@
+{
+    "className": "org.joget.apps.userview.model.Userview",
+    "categories": [
+        {
+            "className": "org.joget.apps.userview.model.UserviewCategory",
+            "menus": [{
+                "className": "org.joget.apps.userview.lib.HtmlPage",
+                "properties": {
+                    "userviewCacheDuration": "",
+                    "userviewCacheScope": "",
+                    "id": "1afef724-c4d4-490a-99de-78603a54bf2a",
+                    "label": "Welcome",
+                    "enableOffline": "",
+                    "customId": "welcome",
+                    "content": "<div class=\"ui-welcome\">\n<h1>Apps and Workflow Made Simple<\/h1>\n<p>&nbsp;<\/p>\n<div class=\"icon\" style=\"margin-right: 20px; margin-bottom: 20px; float: left; clear: left;\"><img src=\"/jw/images/icon_idea.png\" alt=\"Build apps\" width=\"120\" height=\"85\"><\/div>\n<div class=\"message\">\n<h3>Build apps, not just processes!<\/h3>\n<p>Create full-fledged apps with support for data records management.<\/p>\n<\/div>\n<p>&nbsp;<\/p>\n<div class=\"icon\" style=\"margin-right: 20px; margin-bottom: 20px; float: left; clear: left;\"><img src=\"/jw/images/icon_rocket.png\" alt=\"Increased efficiency\" width=\"120\" height=\"85\"><\/div>\n<div class=\"message\">\n<h3>Increased Efficiency and Productivity<\/h3>\n<p>Faster and more consistent completion of manual processes, and with minimal errors.<\/p>\n<\/div>\n<p>&nbsp;<\/p>\n<div class=\"icon\" style=\"margin-right: 20px; margin-bottom: 20px; float: left; clear: left;\"><img src=\"/jw/images/icon_cost.png\" alt=\"Lowered cost\" width=\"120\" height=\"85\"><\/div>\n<div class=\"message\">\n<h3>Lowered Cost<\/h3>\n<p>Employees can be guided through complex procedures, hence reducing the cost of training.<\/p>\n<\/div>\n<\/div>"
+                }
+            }],
+            "properties": {
+                "id": "category-EE74E4F4426241BD9BC3BC73B1D24AC7",
+                "label": "<i class='fa fa-home'><\/i> Home"
+            }
+        },
+        {
+            "className": "org.joget.apps.userview.model.UserviewCategory",
+            "menus": [
+                {
+                    "className": "org.joget.apps.userview.lib.FormMenu",
+                    "properties": {
+                        "loadDataWithKey": "",
+                        "redirectUrlOnCancel": "",
+                        "actionOnCancel": "",
+                        "redirectTargetOnCancel": "top",
+                        "customFooter": "",
+                        "paramName": "",
+                        "enableOffline": "",
+                        "afterSavedReloadTarget": "true",
+                        "customId": "incoming",
+                        "showInPopupDialog": "",
+                        "readonly": "",
+                        "cancelButtonLabel": "",
+                        "actionAfterSaved": "",
+                        "id": "7A675520A97F4CA34149DB174ED176B5",
+                        "redirectUrlAfterComplete": "",
+                        "fieldPassover": "",
+                        "formId": "incomingMail",
+                        "customHeader": "",
+                        "fieldPassoverMethod": "append",
+                        "redirectTargetOnComplete": "",
+                        "keyName": "",
+                        "label": "Incoming",
+                        "userviewCacheDuration": "20",
+                        "messageShowAfterComplete": "",
+                        "submitButtonLabel": "",
+                        "userviewCacheScope": "",
+                        "readonlyLabel": "true"
+                    }
+                },
+                {
+                    "className": "org.joget.apps.userview.lib.DataListMenu",
+                    "properties": {
+                        "cacheAllLinks": "",
+                        "customHeader": "",
+                        "keyName": "",
+                        "customFooter": "",
+                        "label": "List",
+                        "enableOffline": "",
+                        "customId": "",
+                        "buttonPosition": "bothLeft",
+                        "datalistId": "incoming_email",
+                        "checkboxPosition": "left",
+                        "selectionType": "multiple",
+                        "userviewCacheDuration": "20",
+                        "cacheListAction": "",
+                        "userviewCacheScope": "",
+                        "rowCount": "",
+                        "id": "674F08E4CF79403E1F0F344621384AB5"
+                    }
+                }
+            ],
+            "properties": {
+                "hide": "",
+                "permission": {
+                    "className": "",
+                    "properties": {}
+                },
+                "comment": "",
+                "label": "<i class=\"zmdi zmdi-email\"><\/i> Incoming Email",
+                "id": "category-072CE49EFD0A427C2EFA4FFD874EB2D4"
+            }
+        }
+    ],
+    "properties": {
+        "logoutText": "Logout",
+        "welcomeMessage": "#date.EEE, d MMM yyyy#",
+        "name": "Afms 2",
+        "description": "",
+        "footerMessage": "Powered by Joget",
+        "id": "Afms2"
+    },
+    "setting": {"properties": {
+        "__": "",
+        "userviewDescription": "",
+        "userviewId": "Afms2",
+        "hideThisUserviewInAppCenter": "",
+        "userview_thumbnail": "",
+        "userview_category": "",
+        "theme": {
+            "className": "org.joget.plugin.enterprise.Dx8ColorAdminTheme",
+            "properties": {
+                "dx8navBadge": "#00ACAC",
+                "css": "",
+                "loginBackground": "",
+                "dx8navLinkColor": "#FFFFFF",
+                "disablePush": "",
+                "removeAssignmentTitle": "",
+                "shortcutLinkLabel": "Shortcut",
+                "disableHelpGuide": "",
+                "logo": "",
+                "enableResponsiveSwitch": "true",
+                "dx8headerFontColor": "#20252A",
+                "fav_icon": "",
+                "mobileViewDisabled": "",
+                "dx8navLinkIcon": "#FFFFFF",
+                "horizontal_menu": "horizontal_inline",
+                "profile": "",
+                "homeAttractBanner": "",
+                "dx8headingBgColor": "#20252A",
+                "dx8linkColor": "#348FE2",
+                "homeUrl": "",
+                "dx8linkActiveColor": "#2A72B5",
+                "dx8footerColor": "#2D353C",
+                "subheader": "",
+                "disablePwa": "",
+                "dx8contentbackground": "#FFFFFF",
+                "loginPageBottom": "",
+                "dx8backgroundImage": "",
+                "dx8navBadgeText": "#FFFFFF",
+                "dx8background": "#DEE2E6",
+                "dx8headerColor": "#FFFFFF",
+                "dx8colorScheme": "rgb(233, 233, 233);rgb(255, 255, 255);rgb(170, 190, 178);rgb(0, 101, 45);rgb(1, 64, 72);rgb(255, 87, 34)",
+                "dx8navBackground": "#2D353C",
+                "js": "",
+                "dx8navActiveIconColor": "#00ACAC",
+                "dx8navScrollbarThumb": "#999999",
+                "userMenu": [],
+                "urlsToCache": "",
+                "loginPageTop": "",
+                "userImage": "",
+                "dx8buttonColor": "#FFFFFF",
+                "shortcut": [],
+                "usingLocalFonts": "true",
+                "fontControl": "",
+                "dx8navActiveLinkBackground": "#20252A",
+                "dx8fontColor": "#2D353C",
+                "dx8navLinkBackground": "#2D353C",
+                "dx8buttonBackground": "#348FE2",
+                "dx8contentFontColor": "#2D353C",
+                "subfooter": "",
+                "mobileCacheEnabled": "",
+                "dx8footerBackground": "#FFFFFF",
+                "dx8headingFontColor": "#FFFFFF",
+                "dx8primaryColor": "#67ABE9",
+                "darkMode": "",
+                "dx8navActiveLinkColor": "#FFFFFF",
+                "inbox": "current"
+            }
+        },
+        "permission": {
+            "className": "org.joget.apps.userview.lib.LoggedInUserPermission",
+            "properties": {}
+        },
+        "userviewName": "Afms 2"
+    }}
+}
